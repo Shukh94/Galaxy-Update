@@ -122,7 +122,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .paceholder_one {
     width: 31%;
