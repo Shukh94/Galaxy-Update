@@ -1,0 +1,230 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body { font-family: Roboto, sans-serif; }
+header {
+    padding: 30px 0;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {}
+.wrapper nav {
+}
+.wrapper nav a {
+    text-decoration: none;
+    color: rgb(151, 153, 155);
+    font-size: 17px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+.wrapper nav a:hover { 
+     background-color: rgb(230, 224, 230);
+     color: rgb(208, 0, 0); 
+    }
+.container {
+}
+.row { 
+    position: relative; 
+}
+.banner { 
+    position: relative; 
+    width: 100vw; 
+    height: 100vh; 
+    background: url("../images/banner.jpeg") center center no-repeat; 
+}
+.banner::after { 
+    background: rgb(18, 13, 51); 
+    content: ""; position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 0.7; 
+}
+.banner_content { 
+    position: absolute; 
+    top: 50%; left: 50%; 
+    text-align: center; 
+    transform: translate(-50%, -50%); 
+}
+.banner_content h1 { 
+    color: white; 
+    margin-bottom: -13px; 
+    font-size: 40px; 
+}
+.banner_content h5 {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    padding: 30px 0;
+}
+.banner_content button {
+    padding: 16px 43px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: rgb(251, 110, 82);
+    font-size: 16px;
+    margin-top: 20px;
+}
+.banner_content button a { 
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.service_section{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    /* padding-top: 50px; */
+}
+.service {
+    display: flex;
+    justify-content: space-between;
+}
+.service_item {
+    width: 20%;
+    text-align: center;
+}
+.service_item img {
+    
+}
+
+.service_item h2{
+    margin: 15px 0;
+    color: #292c34;
+    font-size: 20px;
+    font-weight: 500;
+}
+.service_item p {
+    color: #97999b;
+    font-weight: 300;
+}
+.quotation{
+    width: 45%;
+    margin: 40px auto;
+    text-align: center;
+}
+.quotation h1 {
+    color: rgb(248 109 81);
+    font-style: italic;
+    font-size: 27px;
+    font-weight: 400;
+}
+.gallery {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0;
+}
+.paceholder_one {
+    width: 31%;
+    margin: auto;
+    text-align: center;
+}
+.paceholder_one img {
+    width: 100%;
+}
+.paceholder_one h2 {
+    text-decoration: none;
+    color: rgb(41, 44, 52);
+    font-size: 17px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.paceholder_one p {
+    font-size: 14px;
+    color: rgb(151, 153, 155);
+}
+.blog_showcase {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 200px;
+}
+.textheading {
+    padding-bottom: 70px;
+    text-align: center;
+    padding-top: 100px;
+}
+.textheading a { 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    color: rgb(41, 44, 52); 
+    font-weight: 400; 
+    font-size: 25px; }
+.blog_images { 
+    display: flex; 
+    justify-content: space-between;
+ }
+.showcase { 
+    width: 540px; 
+    height: 540px; 
+}
+.showcase img { 
+    width: 100%; 
+    height: 100%; 
+    padding-bottom: 20px; 
+}
+.showcase a { 
+    text-decoration: none; 
+    color: rgb(251, 110, 82); 
+    font-size: 20px; 
+}
+.showcase p {
+    color: rgb(151, 153, 155);
+    width: 417px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+footer { 
+    width: 100%; 
+    align-items: center; 
+    background-color: rgb(41, 44, 52); 
+    padding: 20px 0px; 
+}
+.footer_wrapper { 
+    display: flex; 
+    margin: auto; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 80%; 
+}
+.copyright { 
+
+}
+.copyright ul { 
+    list-style: none; 
+    display: flex; 
+    align-items: center; 
+}
+.copyright ul li { 
+    margin-right: 20px; 
+}
+.copyright ul li img { 
+
+}
+.copyright ul li a { 
+    color: rgb(121, 124, 130); 
+    text-decoration: none; 
+    text-transform: capitalize; 
+}
+.social_icon { 
+    
+}
+.social_icon ul { 
+    list-style: none; 
+    display: flex; align-items: center; 
+}
+.social_icon ul li { 
+    margin-right: 40px; 
+}
+.social_icon ul li a { 
+    color: white; 
+}
